@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color:bisque;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+div.trai ul {
+    list-style: none;
+}
+
+.trai ul li {
+    display: inline-block;
+    margin: 20px 10px;
+    background-color: lightblue;
+    color: black;
+    /* padding: 10px 12px; */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+input.timkiem {
+    width: 30%;
+    height: 45px;
+    margin-top: 12px;
+    /* box-shadow: 1px 2px 3px #000000; */
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+::-webkit-input-placeholder {}
+
+input.timkiem::-webkit-input-placeholder {
+}
+
+input.timkiem::-webkit-input-placeholder {
+    padding-left: 12px;
+    font-style: italic;
+}
+.menu nav {
+    width: 45%;
+    margin: auto;
+    text-decoration: none;
+}
+.menu {
+    width: 100%;
+    margin-top: 50px;
+  
+}
+.menu nav ul {
+    list-style: none;
+}
+.menu nav ul li {
+    display: inline-block;
+    padding: 10px;
+    /* background: lightblue; */
+}
+.menu nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+    font-family: tahoma;
+}
+.container{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h{
+    margin: 20px;
+}
+.hi{
+   display: flex;
+   width: 45%;
+   height: 500px;
+   margin: auto;
+   justify-items: center;
+   object-fit: cover;
+   border-radius: 5px;
+}
+.img{
+  width:100%;
+  height: auto;
+}
+.item{
+    display: inline-block;
+    width: 19%;
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right:5px;
+}
+.danhmuc{
+margin-left:-5px;
+margin-right:-5px;
+}
+img{
+    vertical-align:middle;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.container-item{
+   margin-left: 10px;
+}
+.desc{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.footer-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-three{
+    display: flex;
+}
+.one{
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top:20px;
+    margin: auto;}
+.one nav ul{
+    list-style: none;
+}
+.one nav ul li{
+    font-style: initial;
+    font-size: 20px;
+}
+
+
+
+   
+
