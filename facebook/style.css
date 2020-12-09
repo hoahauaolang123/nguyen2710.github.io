@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: darkgray;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+.form-fb {
+    width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 52px;
+    line-height: normal;
+    color: #1d2129;
+}
+
+input:focus {
+    border-radius: 6px;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+input[type="submit"] {
+    background-color: #1877f2;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    height: 48px;
+    line-height: normal;
+}
+
+.forgot-pass {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.forgot-pass a,
+.create-new a {
+    color: #1877f2;
+}
+
+.create-new {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-new #signup-label {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.create-new #signup,
+.signup-form {
+    display: none;
+}
