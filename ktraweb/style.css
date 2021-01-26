@@ -1,0 +1,186 @@
+@media(min-width: 1600px) {
+    .container {
+        max-width: 1430px;
+    }
+}
+
+.menu-pink {
+    border-radius: 30px;
+    background-color: #FF65C2;
+    width: 159px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.banner-one {
+    left: 0px;
+    top: 100px;
+    background: #373737;
+    mix-blend-mode: normal;
+    opacity: 0.73;
+}
+
+.content-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.div-button {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icons {
+    margin-top: 10%;
+    width: 235px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.banner-our {
+    margin-top: 75px;
+}
+
+.span-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FF65C2;
+}
+
+.p-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    text-align: center;
+    color: #797979;
+}
+
+.container-margin {
+    margin-top: 50px;
+}
+
+.banner-two {
+    background: #FF65C2;
+    padding: 110px 30px;
+}
+
+.p-one {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    color: #797979;
+    padding-left: 40px;
+}
+
+.bg-width {
+    background-color: white;
+    margin-right: 40px;
+    padding-top: 40px;
+}
+
+.span-three {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #797979;
+}
+
+.p-three {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    color: #797979;
+}
+
+.p-four {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #797979
+}
+
+.six {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 20px;
+    text-align: center;
+    /* or 214% */
+    color: #797979;
+    max-width: 440px;
+    padding-left: 115px;
+}
+
+.img-nv {
+  padding-left: 35%;
+}
+
+.seven {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #797979;
+}
+
+.great-team {
+    padding-top: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.great-team-img {
+    display: flex;
+    justify-content: space-around;
+}
+.p-img{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 20px;
+    text-align: center;
+    /* or 214% */
+    color: #797979;
+    max-width: 440px;
+}
