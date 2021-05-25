@@ -1,0 +1,14 @@
+@media (max-width:960px){.btn{
+    font-size: 12px;  
+}};
+@media (min-width:1200px){.btn{
+   padding-left: 1.5rem!important;
+};  
+};
+@media (min-width:1200px){div#search-wrap{
+    padding: 12rem!important;
+ };  
+ };
+.max-width-720{
+    max-width: 720px;
+}

@@ -1,0 +1,226 @@
+
+
+
+@import "../components/button.css";
+@import "../components/combobox.css";
+@import "../components/input.css";
+@import "../components/reponsive.css";
+
+/* @font-face {
+    font-family: 'notosans-regular';
+    src: url('../../assets/fonts/NotoSansJP-Regular.otf') format('otf');
+  } */
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /* font-family: notosans-regular; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none !important;
+  }
+ul,
+li {
+    list-style: none;
+  }
+img,svg{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    object-fit: cover;
+}
+.navbar-collapse{
+    flex-grow:inherit;
+}
+.container-fluid{
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.nav-item{
+    margin-left:20px
+}
+
+.header-di{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+.header-di .link-navigate{
+    display: flex;
+    align-items: center;
+}
+
+.header-di .link-navigate .link-navigate-item{
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-di .link-navigate .link-navigate-item:first-child{
+    color: red;
+}
+
+.header-di .btn-youtube{
+    padding: 11px 5.5px;
+    border: 1px solid #D9230F;
+    color: #D9230F;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content:center
+}
+.header-di .btn-youtube:hover{
+    opacity: 0.5;
+}
+
+.header-di .btn-youtube .icon-youtube{
+    width: 20px;
+    height: 14px;
+    background: url(../../assets/icons/youtube-icon.svg);
+    margin-right: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+::placeholder {
+    color:black;
+    opacity: 0.7; 
+  }
+.sidebar-section{
+    padding: 8px 0px;
+}
+.card{
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    border-color:#ddd;
+    display: flex;
+    background-color: #fff;
+    border:1px solid #eee;
+    border-radius: 0.25rem;
+}
+.car-image{
+    position: relative;
+    overflow: hidden;
+    min-height: 186px;
+}
+.address{
+    position: absolute;
+    color: #fff;
+    left: 5px;
+    bottom: 5px;
+    background-color: rgba(0,0,0,.6);
+    padding: 4px 9px;
+    border-radius: 4px;
+    font-size: 11px;
+    z-index: 100;
+    border: 1px solid #fff;
+    font-weight: 700;
+}
+.car-id{
+    position: absolute;
+    color: #fff;
+    left: 5px;
+    top: 5px;
+    background-color: rgba(0,0,0,.5);
+    padding: 4px 9px;
+    border-radius: 4px;
+    font-size: 11px;
+    z-index: 100
+}
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 700;
+}
+.three-footer{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    line-height: 1.4!important;
+}
+.price-list{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 49%;
+    overflow-x: hidden;
+}
+.tra-truoc{
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 12px;
+    max-width: 125px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+#footer{
+    background-color: #29303d;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search-wrap{
+    background-image: url(/assets/images/AnyCar-LongBien.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 30%);
+    color: #fff;
+}
+@media (min-width: 992px){
+    .p-lg-10 {
+        padding: 15rem!important;
+    }}
+.form-select-sm {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: .5rem;
+ 
+}
+.type-list{
+    background:#da202c;
+    color: #fff;
+}
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.line {
+    clear: both;
+    font-size: 14.6px;
+    border-bottom: 1px solid #eee;
+    height: 38px;
+    padding: 8px 0;
+}
+.car-detail-table .line-hover {
+    background-color: #efefef;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-video{
+    overflow: hidden;
+}
+.btn-video iframe{
+    width: 100%;
+}

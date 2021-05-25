@@ -1,0 +1,31 @@
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    font-size: 14px;
+    font-family: notosans-regular;
+    border-radius: 5px;
+    border: 1px solid #CDC9C9;
+    outline: none;
+    padding-left: 8px;
+}
+.search {
+    height: 30px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    width: 231px;
+  }
+
+.search-input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    height: 30px;
+    width:210px
+  }
+
+  
+

@@ -1,0 +1,39 @@
+.btn-primary{
+    background: #EAEAEA;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+    border: none;
+    font-weight: 400;
+    font-family: Tahoma;
+    font-family: notosans-regular;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    background: #EFEFEF;
+}
+
+.second-button{
+    padding: 11px 51.5px;
+    background: #DA202A;
+    border-radius: 5px;
+    font-family: notosans-regular;
+    font-weight: 400;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.second-button:hover{
+    background: #ee5c63;
+}
+.logo-search {
+    all: unset;
+    cursor: pointer;
+    width: 35px;
+    height: 30px;
+    background: #eeeeee;
+  }

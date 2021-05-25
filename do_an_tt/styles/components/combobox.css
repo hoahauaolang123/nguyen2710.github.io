@@ -1,0 +1,13 @@
+
+select{
+    padding: 15px 0px;
+    outline: none;
+    font-family: notosans-regular;
+    border: none;
+    background: white;
+    border-radius: 5px;
+}
+
+select:focus{
+    border: 1px solid #2ca033;
+}

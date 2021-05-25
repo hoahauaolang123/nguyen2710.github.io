@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/pages/index.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href=""><img src="../assets/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="contact.html">Tìm mua xe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gửi bán xe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mua bảo hiểm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sửa xe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">khuyến mại</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin Tức xe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tìm anycar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                  <a class="nav-link" href="#">Hotline: <h7 style="color: #da202c;">18006262</h7></a>
+                </li>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div id="search-wrap" class="p-md-5 text-center banner-images">
+      <div class="p-lg-10 mx-auto">
+        <!-- <h2 class="home-title"><span>42</span> Xe - <span>3</span> Showroom | Xưởng</h2> -->
+
+        <form method="GET" id="filter_form" action="">
+          <div class="d-flex flex-column flex-md-row">
+            <div class="w-100 p-2">
+
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Chọn tỉnh thành</option>
+                <option value='ha-noi'> Hà Nội </option>
+                <option value='ho-chi-minh'> Hồ Chí Minh </option>
+
+              </select>
+            </div>
+            <div class="w-100 p-2">
+
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Chọn hãng xe</option>
+                <option value='mercedes-benz'> Mercedes-Benz </option>
+                <option value='toyota'> Toyota </option>
+                <option value='kia'> Kia </option>
+                <option value='hyundai'> Hyundai </option>
+                <option value='mazda'> Mazda </option>
+                <option value='ford'> Ford </option>
+                <option value='honda'> Honda </option>
+                <option value='mitsubishi'> Mitsubishi </option>
+                <option value='chevrolet'> Chevrolet </option>
+                <option value='suzuki'> Suzuki </option>
+                <option value='mercedes'> Mercedes </option>
+              </select>
+            </div>
+
+            <div class="w-100 p-2">
+
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Chọn mẫu xe</option>
+                <option value='mercedes-benz'> Mercedes-Benz </option>
+                <option value='toyota'> Toyota </option>
+                <option value='kia'> Kia </option>
+                <option value='hyundai'> Hyundai </option>
+                <option value='mazda'> Mazda </option>
+                <option value='ford'> Ford </option>
+                <option value='honda'> Honda </option>
+                <option value='mitsubishi'> Mitsubishi </option>
+                <option value='chevrolet'> Chevrolet </option>
+                <option value='suzuki'> Suzuki </option>
+                <option value='mercedes'> Mercedes </option>
+              </select>
+            </div>
+
+            <div class="w-100 p-2 select-year select-year-home">
+
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Năm sản xuất</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+              </select>
+              </select>
+            </div>
+
+            <div class="w-100 p-2">
+
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>khoảng giá</option>
+                <option value="">Khoảng giá</option>
+                <option value="300-400">Từ 300 - 400 triệu</option>
+                <option value="400-500">Từ 400 - 500 triệu</option>
+                <option value="500-600">Từ 500 - 600 triệu</option>
+                <option value="600-700">Từ 600 - 700 triệu</option>
+                <option value="700-800">Từ 700 - 800 triệu</option>
+                <option value="1500-10000">Trên 1.5 tỷ</option>
+              </select>
+            </div>
+
+          </div>
+          <div class="pt-4 m-pt-2">
+            <button type="submit" class="btn btn-primary btn-lg min-w200" style="background-color: #DA202A;">
+              <i class="fa fa-search"></i>
+              TÌM MUA XE
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    <div id="type-list">
+      <div class="d-flex flex-column flex-lg-row flex-md-column">
+        <div class="container">
+          <a href="">
+            <div class="type-list-item media my-2">
+              <i class="fa fa-sun mr-3 my-2"></i>
+              <div class="media-body">
+                <h3 class="type-list-title h4 text-white my-2">
+                  <div class="type-list-content">Chương trình ưu đãi <span class="fa fa-gift"
+                      style="color:#FFEB3B;position: absolute;padding-left: 8px;top: -7px;transform: rotate(20deg);"></span>
+                  </div>
+                  <i class="fa fa-angle-right"></i>
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="container px-4">
+          <a href="">
+            <div class="type-list-item media my-2">
+              <i class="fa fa-gift mr-3 my-2"></i>
+              <div class="media-body">
+                <h3 class="type-list-title h4 text-white my-2 d-none d-sm-block">Trả góp lãi suất ưu đãi, tỷ
+                  lệ vay cao <i class="fa fa-angle-right ml-2"></i></h3>
+                <h3 class="type-list-title h4 text-white my-2 d-block d-sm-none">Trả góp lãi suất ưu đãi<i
+                    class="fa fa-angle-right ml-2"></i></h3>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="container">
+          <a href="">
+            <div class="type-list-item media my-2">
+              <i class="fa fa-wrench mr-3 my-2"></i>
+              <div class="media-body">
+                <h3 class="type-list-title h4 text-white my-2">
+                  <div class="type-list-content">Dịch vụ sửa chữa</div>
+                  <i class="fa fa-angle-right"></i>
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto new_car_list pt-3 px-2 text-center" style="max-width: 720px">
+      <fieldset>
+        <legend class="d-lg-none">Xe bán chạy</legend>
+        <b class="h4 font-weight-bold d-none d-lg-inline-block">Xe bán chạy:</b>
+        <a href="">Vios</a> <a
+          href="">Rio</a> <a
+          href="">Elantra</a> <a
+          href="">i10</a>
+      </fieldset>
+    </div>
+
+    <div class="mx-auto new_car_list pt-3 px-2 text-center" style="max-width: 720px">
+      <fieldset>
+        <legend class="d-lg-none">Mới về</legend>
+        <b class="h4 font-weight-bold d-none d-lg-inline-block">Mới về:</b>
+        <a href="">Vios</a> <a
+          href="">Morning</a> <a
+          href="">Rio</a> <a
+          href="">Elantra</a>
+      </fieldset>
+    </div>
+
+    <div id="list-reason" class="container max-width-720 my-5" style="max-width: 720px;">
+      <h3 class="text-center">Ưu điểm của việc mua xe cũ</h3>
+      <div class="mt-4 embed-responsive embed-responsive-16by9 text-center btn-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uwYbETvxThU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="list-showroom" class="container max-width-720 mb-5" style="max-width:720px">
+      <h1 class="text-center h3">Hệ thống ANYCAR</h1>
+      <div class="text-center">(Showroom - Xưởng sửa chữa)</div>
+
+      <div class="d-flex mt-4">
+        <h4 class="text-primary mr-auto p-2 font-weight-bold">Hà Nội</h4>
+        <div class="ml-auto h4 p-2 font-weight-bold">2 chi nhánh</div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body showroom-address">
+              <div class="d-flex">
+                <span class="showroom-id hide">3852</span>
+                <h5 class="card-title font-weight-bold mr-auto">Anycar Long Biên</h5>
+
+              </div>
+              <p class="card-text">Số 3-5 Nguyễn Văn Linh, P. Gia Thụy, <br>Q. Long Biên, Hà Nội</p>
+              <div class="row service-show">
+                <div class="col-6">
+                  <i class="fa fa-check text-success"></i>
+                  Showroom
+                </div>
+                <div class="col-6">
+                  <i class="fa fa-check text-success"></i>
+                  Sửa chữa
+                </div>
+              </div>
+            </div>
+            <div class="card-footer d-flex flex-row justify-content-around px-0">
+              <div>
+                <a href="">
+                  <i class="fa fa-map-marker-alt"></i>
+                  Bản đồ
+                </a>
+              </div>
+              <div class="d-none d-md-block">
+                <a href="" class="">
+                  <i class="fa fa-phone"></i>
+                  Gọi liên hệ
+                </a>
+              </div>
+              <div class="d-md-none">
+                <a class="call-tracking" data-id="3852" href="javascript:;"><i class="fa fa-phone"></i>Gọi liên
+                  hệ</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body showroom-address">
+                <div class="d-flex">
+                    <span class="showroom-id hide">5391</span>
+                    <h5 class="card-title font-weight-bold mr-auto">Anycar Việt Hưng</h5>
+
+                </div>
+                <p class="card-text">Số 8 Nguyễn Cao Luyện, P. Đức Giang, Q. Long Biên, Hà Nội</p>
+                <div class="row service-show">
+                    <div class="col-6">
+                        <i class="fa fa-check text-success"></i>
+                        Showroom
+                    </div>
+                    <div class="col-6">
+                        <i class="fa fa-check text-success"></i>
+                        Sửa chữa
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer d-flex flex-row justify-content-around px-0">
+                <div>
+                    <a href="javascript:;" id="btn_map_modal"
+                        onclick='map_modal(105.905009,21.067457, "Anycar Việt Hưng", "Số 8 Nguyễn Cao Luyện, P. Đức Giang, Q. Long Biên, Hà Nội");'>
+                        <i class="fa fa-map-marker-alt"></i>
+                        Bản đồ
+                    </a>
+                </div>
+                <div class="d-none d-md-block">
+                    <a href="javascript:;" onclick="contact_modal();" class="">
+                        <i class="fa fa-phone"></i>
+                        Gọi liên hệ
+                    </a>
+                </div>
+                <div class="d-md-none">
+                    <a class="call-tracking" data-id="5391" href="javascript:;"><i class="fa fa-phone"></i>Gọi liên
+                        hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex mt-4">
+      <h4 class="text-primary mr-auto p-2 font-weight-bold">Hà Nội</h4>
+      <div class="ml-auto h4 p-2 font-weight-bold">2 chi nhánh</div>
+    </div>
+    <div class="row">
+      <div class="col-6">    <div class="card">
+        <div class="card-body showroom-address">
+            <div class="d-flex">
+                <span class="showroom-id hide">3843</span>
+                <h5 class="card-title font-weight-bold mr-auto">Anycar Lương Định Của</h5>
+
+            </div>
+            <p class="card-text">Số 250 Lương Định Của, P. An Phú, Q. 2, <br>TP Hồ Chí Minh</p>
+            <div class="row service-show">
+                <div class="col-6">
+                    <i class="fa fa-check text-success"></i>
+                    Showroom
+                </div>
+                <div class="col-6">
+                    <i class="fa fa-check text-success"></i>
+                    Sửa chữa
+                </div>
+            </div>
+        </div>
+        <div class="card-footer d-flex flex-row justify-content-around px-0">
+            <div>
+                <a href="javascript:;" id="btn_map_modal"
+                    onclick='map_modal(106.748910,10.791042, "Anycar Lương Định Của", "Số 250 Lương Định Của, P. An Phú, Q. 2, TP Hồ Chí Minh");'>
+                    <i class="fa fa-map-marker-alt"></i>
+                    Bản đồ
+                </a>
+            </div>
+            <div class="d-none d-md-block">
+                <a href="javascript:;" onclick="contact_modal();" class="">
+                    <i class="fa fa-phone"></i>
+                    Gọi liên hệ
+                </a>
+            </div>
+            <div class="d-md-none">
+                <a class="call-tracking" data-id="3843" href="javascript:;"><i class="fa fa-phone"></i>Gọi liên
+                    hệ</a>
+            </div>
+        </div>
+    </div></div>
+      <div class="col-6">
+        <div class="card d-none d-sm-block position-relative" style="height: 224px;">
+          <div class="card-body h3 mt-4 text-center">
+              Chi nhánh thứ 2<br>
+              Sắp khai trương
+          </div>
+          <div class="card-footer h--46 position-absolute w-100" style="bottom: 0;height: 41px;"></div>
+      </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div id="footer" class="p-md-4">
+      <div class="container text-white fs-13">
+        <div class="d-flex flex-md-row-reverse row">
+          <div class="col-md-2 col-sm-12 m-3 m-md-0">
+            <div class="row mb-3 d-md-none">
+              <div class="col-6"><a href="" class="btn btn-primary w-100">Tìm mua
+                  xe</a></div>
+              <div class="col-6"><a href="" class="btn btn-primary w-100">Dịch vụ</a></div>
+            </div>
+            <ul style="list-style:none; text-align:left;" class="nav flex-column">
+              <li itemscope="" itemtype="">
+                <a href="/" itemprop="url" class="active">
+                  <span itemprop="summary">ANYCAR VIỆT NAM</span>
+                </a>
+              </li>
+              <li itemscope itemtype="">
+                <meta class="event-date" itemprop="startDate" content="2021-03">
+                <a href="" itemprop="url" class="nav-link child">
+                  <span itemprop="summary">Tìm mua xe</span></a>
+
+                <div itemprop="location">
+
+                  <div>
+                    <meta itemprop="address" content="3-5,Nguyễn Văn Linh, Long Biên, Hà Nội">
+                  </div>
+                </div>
+                <div itemprop="performer" itemscope="" itemtype="http://schema.org/Organization">
+                </div>
+              </li>
+              <li itemscope itemtype="http://schema.org/Event">
+                <meta class="event-date" itemprop="startDate" content="2021-03">
+                <a href="https://anycar.vn/dang-ky-ky-gui-xe.html" itemprop="url" class="nav-link child">
+                  <span itemprop="summary">Ký gửi xe</span></a>
+                <meta itemprop="name" content="➋ Ký gửi bán xe ">
+                <meta itemprop="description" content="Ký gửi bản xe với mức phí hấp dẫn">
+                <meta itemprop="image" content="https://anycar.vn/assets/img/Asset_1_4x_288.png" alt="Anycar">
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <meta itemprop="name" content="✔️ Phí ký gửi hấp dẫn">
+                  <div>
+                    <meta itemprop="address" content="3-5,Nguyễn Văn Linh, Long Biên, Hà Nội">
+                  </div>
+                </div>
+                <div itemprop="performer" itemscope="" itemtype="">
+                </div>
+              </li>
+              <li>
+                <a href="" class="nav-link child">Sửa xe, bảo dưỡng
+                  xe</a>
+              </li>
+              <li>
+                <a href="" class="nav-link child">Khuyến mãi</a>
+              </li>
+              <li>
+                <a href="" class="nav-link child">Tin tức</a>
+              </li>
+              <li>
+                <a href="" class="nav-link child">Tìm Anycar</a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-md-6 col-sm-12 m-3 m-md-0">
+            <div class="row mb-3 d-none d-md-flex">
+              <div class="col-6"><a href="" class="btn btn-primary w-100">Tìm mua
+                  xe</a></div>
+              <div class="col-6"><a href="" class="btn btn-primary w-100">Dịch
+                  vụ</a></div>
+            </div>
+            <!-- <div class="h4">Nhận thông báo xe mới</div>
+              <div class="pb-4">
+                  <div class="input-group">
+                      <input type="text" class="form-control">
+                      <div class="input-group-append">
+                          <input type="button" class="btn btn-primary" placeholder="Nhập email của bạn" value="ĐĂNG KÝ">
+                      </div>
+                  </div>
+              </div> -->
+            <div class="pb-3">
+              Công ty Cổ phần Anycar Việt Nam được thành lập từ năm 2010 là một trong những doanh nghiệp kinh
+              doanh xe đã qua sử dụng lớn nhất, uy tín và định vị trở thành công ty kinh doanh xe ô tô đã qua
+              sử dụng dẫn đầu thị trường với số lượng, chủng loại xe phong phú và đa dạng nhất thị trường Việt
+              Nam. Sau gần 10 năm kinh nghiệm hoạt động, Công ty đã không ngừng khẳng định vị thế thương hiệu
+              trên thị trường và niềm tin đối với khách hàng qua hệ thống showroom và Xưởng dịch vụ hiện đại,
+              công suất lớn tại Hà Nội và Hồ Chí Minh với dịch vụ chuyên nghiệp và chất lượng như Bảo dưỡng
+              sửa chữa, làm đẹp ô tô, cứu hộ ô tô,... Công ty Cổ phần Anycar Việt Nam đầu tư vào hệ thống công
+              nghệ hiện đại, năng lực quản trị điều hành, đội ngũ nhân sự chuyên nghiệp, tay nghề cao để xây
+              dựng và phát triển Anycar thành một thương hiệu xe đã qua sử dụng đáng tin cậy nhất ở Việt Nam.
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 m-3 m-md-0">
+            <div class="logo"><a href="/"><img src="../assets/images/logo.png" class="lazyload"></a>
+            </div>
+            <div class="pt-3">Công ty Cổ phần Anycar Việt Nam</div>
+            <div>Số 3-5, Nguyễn Văn Linh, P. Gia Thụy, Q. Long Biên, Hà Nội</div>
+            <div class="pt-3">Số ĐKKD: 0104406822, ngày cấp: 29/01/2010<br>Nơi cấp: Hà Nội</div>
+            <div class="pt-3">Giấy phép MXH số 227/GP – BTTTT do BỘ THÔNG TIN VÀ TRUYỀN THÔNG cấp ngày
+              05/06/2019.</div>
+            <div>Chịu trách nhiệm nội dung: Phạm Trung Dũng.</div>
+            <div class="pt-3">Hotline: <a href="tel:18006216" class="">18006216</a> - Email: <a
+                href="mailto:info@anycar.vn">info@anycar.vn</a></div>
+            <div class="pt-3">© Copyright 2010 ANYCAR.VN - All rights reserved.</div>
+            <div class="tmdt pt-3"><a href=""
+                target="_blank"><img src="" data-src="/assets/img/tmdt.png?v=89" class="lazyload"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </form>
+    </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
