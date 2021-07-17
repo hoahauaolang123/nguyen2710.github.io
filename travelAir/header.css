@@ -90,6 +90,7 @@ nav{
   }
   .navbar .links li .sub-menu li{
     padding: 0 22px;
+    padding-left: 0px !important;
     border-bottom: 1px solid rgba(255,255,255,0.1);
   }
   .navbar .links li .sub-menu a{

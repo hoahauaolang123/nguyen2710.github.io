@@ -99,16 +99,14 @@
   }
   
   .btn{
-    display: block;
-    width: 100px;
-    height: 100px;
+  
     margin: 40px auto;
     background-color: #fcd55a;
     color: #121113;
     border: 2px solid #fcd55a;
-    font-size: 40px;
+    font-size: 30px;
     border: none;
-    border-radius: 30px;
+
     cursor: pointer;
     transition: .3s linear;
   }
