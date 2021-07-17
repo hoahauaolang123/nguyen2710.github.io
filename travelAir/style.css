@@ -256,9 +256,8 @@ color: white;
 }
 
 .service-wrapper {
-  background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(./img/service_wrapper.jpg);
+  background: url(./img/service_wrapper.jpg) no-repeat;
 }
 
 .space-medium {
@@ -375,7 +374,7 @@ color: white;
     -webkit-appearance: none;
 }
 .page-header {
-    background-image: url(./img/banner-3.jpg) no-repeat;
+    background: url(./img/banner-3.jpg) no-repeat;
     margin: 0px;
     padding-top: 250px;
     padding-bottom: 0px;
