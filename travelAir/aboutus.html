@@ -26,6 +26,8 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
 
 
 
@@ -102,20 +104,20 @@
         <nav>
             <div class="navbar">
                 <i class='bx bx-menu'></i>
-                <div class="logo"><a href="index.html">NTNTravelAir</a></div>
+                <div class="logo"><a href="#">NTNTravelAir</a></div>
                 <div class="nav-links">
                     <div class="sidebar-logo">
                         <span class="logo-name">NTNTravelAir</span>
                         <i class='bx bx-x'></i>
                     </div>
                     <ul class="links">
-                        <li><a href="index.html" class="nav-a">Home</a></li>
+                        <li><a  class="nav-a" href="index.html">Home</a></li>
                         <li>
                             <a class="nav-a" href="#">Tour Packages</a>
                             <i class="fa fa-caret-down js-arrow"></i>
                             <ul class="htmlCss-sub-menu sub-menu">
-                                <li><a href="#">Tour List</a></li>
-                                <li><a href="">Tour Single</a></li>
+                                <li><a href="index.html">Tour List</a></li>
+                              
                                 <li><a href="toursingle.html">Tour List Single </a></li>
                             </ul>
                         </li>
@@ -128,7 +130,7 @@
                         <li><a class="nav-a" href="#">Page </a>
                             <i class="fa fa-caret-down htmlcss-arrow"></i>
                             <ul class="htmlCss-sub-menu sub-menu">
-
+                                
                                 <li><a href="#">Clients Reviews</a> </li>
                                 <li><a href="#">Tour Booking</a> </li>
                                 <li><a href="#">Gallery</a> </li>
@@ -136,6 +138,8 @@
                             </ul>
                         </li>
                         <li><a class="nav-a" href="contact.html">Contact</a></li>
+                        <li> <a class="nav-a " data-bs-toggle="modal"
+                            data-bs-target="#classesModal" href="">Login</a></li>
                     </ul>
                 </div>
                 <div class="search-box nav-a">
@@ -147,6 +151,39 @@
             </div>
         </nav>
     </div>
+    <div class="modal fade" id="classesModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="#" class="login-form">
+                <h1>Sign In</h1>
+                <div class="textb">
+                  <input type="text" required>
+                  <div class="placeholder">Username</div>
+                </div>
+            
+                <div class="textb">
+                  <input type="password" required>
+                  <div class="placeholder">Password</div>
+                  <div class="show-password fas fa-eye-slash"></div>
+                </div>
+            
+                <div class="checkbox">
+                  <input type="checkbox">
+                  <div class="fas fa-check"></div>
+                  Stay signed in
+                </div>
+            
+                <button class="btn fas fa-arrow-right" ></button>
+                <a href="#">Can't Sign in?</a>
+                <a href="#">Create Account</a>
+              </form>
+          </div>
+        </div>
+      </div>
     
     <div class="page-header">
         <div class="container">
@@ -422,7 +459,7 @@ Association</h4>
                                         class="fa fa-map-marker"></i></span> <span
                                     class="ft-contact-text">HoangMai,HaNoi,Vietnam</span></div>
                             <div class="ft-contact-info"> <span class="ft-contact-icon"><i class="fa fa-phone "></i></span>
-                                <span class="ft-contact-text">+84988787328/span></div>
+                                <span class="ft-contact-text">+84988787328</div>
                             <div class="ft-contact-info"> <span class="ft-contact-icon"><i
                                         class="fa fa-envelope "></i></span> <span
                                     class="ft-contact-text">nnguyentrung@gmail.com</span></div>
