@@ -258,7 +258,7 @@ color: white;
 .service-wrapper {
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(./img/service_wrapper.jpg);
+  background-image: url(/img/service_wrapper.jpg);
 }
 
 .space-medium {
