@@ -310,7 +310,7 @@ color: white;
   padding-top: 66px;
   background: linear-gradient(to bottom, rgba(64, 14, 130, 1) 0%, rgba(64, 14, 130, 1) 0%, rgba(64, 14, 130, 1) 0%, rgba(117, 5, 125, 1) 50%, rgba(117, 5, 125, 1) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#400e82', endColorstr='#75057d', GradientType=0);
-  color: #c0a6de;
+  color:#fff;
   font-weight: 400;
   font-size: 14px;
 }
@@ -322,7 +322,7 @@ color: white;
 
 .footer-widget ul li a {
   font-size: 14px;
-  color: #c0a6de;
+  color: #fff;
   cursor: pointer;
 }
 
